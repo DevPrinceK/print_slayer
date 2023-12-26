@@ -1,5 +1,8 @@
 All notable changes to the `print_slayer` package will be documented in this file.
 
+## [1.0.1] - 2023-12-26
+- Added Code formatting after removing print statements.
+
 ## [1.0.0] - 2023-07-17
 
 - Initial version.

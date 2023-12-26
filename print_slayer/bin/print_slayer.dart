@@ -12,6 +12,7 @@ void main(List<String> args) {
 
   if (argResults['help'] == true) {
     print(parser.usage);
+
     return;
   }
 

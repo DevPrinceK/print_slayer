@@ -22,6 +22,9 @@ void cleanCode(List<String> ignoreList) {
   }
 
   print('Code Cleanup Completed!');
+
+  // format the code after cleanup to make it look good
+  Process.runSync('flutter', ['format', '.'], runInShell: true);
 }
 
 List<File> listFiles(Directory directory) {
