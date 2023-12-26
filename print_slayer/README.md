@@ -5,6 +5,7 @@ print_slayer is a Flutter/dart package designed to remove print statements from 
 - Removes print statements from Dart source code files.
 - Command-line interface (CLI) for easy execution.
 - Optional ability to ignore specific files during the cleanup process.
+- Re-formats code after removing the print() statements
 
 ## Getting started
 
@@ -12,14 +13,14 @@ To use print_slayer in your Dart or Flutter project, add it as a dependency in y
 
 ```yaml
 dependencies:
-  print_slayer: ^1.0.0
+  print_slayer: ^1.0.1
 ```
 
 or
 
 ```yaml
 dev_dependencies:
-  print_slayer: ^1.0.0
+  print_slayer: ^1.0.1
 ```
 
 You can also run the `dart pub get print_slayer`
@@ -45,7 +46,7 @@ Note that the [options] are optional command-line arguments
 
 ## Additional information
 
-You want to connect? Connet Here:
+You want to connect? Connect Here:
 
 - [LinkedIn](https://www.linkedin.com/in/prince-samuel-941956165/)
 - [GitHub](https://github.com/DevPrinceK)
