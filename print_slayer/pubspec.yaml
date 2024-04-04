@@ -1,6 +1,6 @@
 name: print_slayer
-description: A simple dart package for removing all print() statements from your code.
-version: 1.0.1
+description: A simple dart package for removing all print() and debugPrint() statements from your code.
+version: 1.1.0
 repository: https://github.com/DevPrinceK/print_slayer
 homepage: https://github.com/DevPrinceK/print_slayer
 
