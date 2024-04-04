@@ -33,6 +33,7 @@ void cleanCode(List<String> ignoreList, {bool debugPrint = false}) {
 
   // format the dart files in the lib directory using dart format
   Process.runSync('dart', ['format', 'lib'], runInShell: true);
+  print('Formatted Dart Files in lib directory');
 }
 
 List<File> listFiles(Directory directory) {

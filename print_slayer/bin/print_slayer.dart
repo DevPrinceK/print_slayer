@@ -15,7 +15,7 @@ void main(List<String> args) {
   final argResults = parser.parse(args);
 
   if (argResults['help'] == true) {
-    print(parser.usage);
+    
     return;
   }
 
